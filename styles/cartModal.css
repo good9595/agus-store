@@ -1,0 +1,78 @@
+.modal-content {
+    width: max-content;
+    min-width: 500px;
+}
+  
+.cart-modal-header {
+}
+  
+.cart-modal-title {
+/* Estilização para o título do modal */
+}
+
+.cart-modal-body {
+
+}
+
+.cart-empty {
+/* Estilização para a mensagem quando o carrinho está vazio */
+}
+
+.cart-modal-labels {
+    padding: 5px;
+    text-align: start;
+    grid-template-columns: 30% 15% 25% 15% 15%;
+}
+
+.cart-modal-items {
+/* Estilização para a lista de itens no carrinho */
+}
+
+.cart-modal-item {
+/* Estilização para um único item no carrinho */
+}
+
+.cart-modal-item-details {
+    display: grid;
+    grid-template-columns: 30% 15% 25% 15% 15%;
+    text-align: start;
+    justify-content: center;
+}
+.bt-lpgroup{
+    align-items: center;
+}
+
+.cart-item-name {
+/* Estilização para o nome de um item */
+}
+
+.cart-item-price {
+/* Estilização para o preço de um item */
+}
+
+.cart-item-quantity {
+    display: flex;
+    height: 30px;
+    justify-content: center;
+}
+
+.cart-item-total {
+/* Estilização para o total de um item */
+}
+
+.cart-item-remove {
+/* Estilização para o botão de remoção de um item */
+}
+
+.cart-modal-footer {
+/* Estilização para o rodapé do modal */
+}
+
+.cart-total {
+/* Estilização para o total no carrinho */
+}
+
+.cart-close-button {
+/* Estilização para o botão de fechar */
+}
+  

@@ -1,0 +1,52 @@
+.float-container {
+    padding: 30px;
+    background-color: rgb(237, 237, 237);
+    align-self: center;
+    border-radius: 15px;
+    margin-top: 4vh;
+    width: 400px;
+    align-items: center;
+    margin-left: calc(50% - 200px);
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.subtitle { 
+    margin-bottom: 20px
+}
+
+.info-text {
+    color: rgb(91, 91, 91);
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.form {
+    color: rgb(91, 91, 91);
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-control {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 13px;    
+}
+
+.btn-submit {
+    margin-top: 10px;
+}
+
+.error-message {
+    color: rgb(250, 58, 58);
+    margin-bottom: 10px
+}
+
+.login-link,.signup-link {
+    color: rgb(91, 91, 91);
+    text-align: end;
+}

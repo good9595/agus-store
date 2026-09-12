@@ -1,0 +1,35 @@
+{
+  "name": "agus-store",
+  "version": "1.0.0",
+  "description": "Plataforma e-commerce full-stack desarrollada con Next.js, Prisma y PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "vercel-build": "prisma generate && next build",
+    "prisma:generate": "prisma generate"
+  },
+  "keywords": ["ecommerce", "nextjs", "react", "prisma", "postgresql", "fullstack"],
+  "author": "Agustín Jesús Antonio Casella",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.14.1",
+    "bcrypt": "^5.1.0",
+    "bootstrap": "^5.2.3",
+    "dotenv": "^16.0.3",
+    "next": "^13.4.3",
+    "next-auth": "^4.22.1",
+    "node-fetch": "^3.3.1",
+    "pg": "^8.7.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-bootstrap-icons": "^1.10.3",
+    "react-icons": "^4.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.2.1",
+    "@types/react": "18.2.6",
+    "prisma": "^4.14.1",
+    "typescript": "5.0.4"
+  }
+}

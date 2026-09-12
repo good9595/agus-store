@@ -1,0 +1,84 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .brand {
+    /* Estilos para os links da navbar */
+  }
+  
+  .navLink {
+    /* Estilos para o formulário */
+  }
+  .search-engine{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    align-items: center;
+  }
+  .mr-sm-2{
+    height: 38px;
+    width: 220px;
+    margin: 0;
+  }
+  .searchButton{
+    height: 100%;
+  }
+  .categoryContainer {
+    margin-top: 30px;
+    justify-content: center;
+  }
+  .footer-card{
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .line-card{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, 300px);
+    justify-content: space-evenly;
+  }
+  .productCard {
+    width: 300px;
+    height: 380px;
+    display: grid;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .link-card{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+
+  .productImage {
+    max-height: 200px;
+    width: auto;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+  }
+  .productCol{
+    display: grid;
+  }
+  
+  .card-body {
+    align-self: end;
+  }
+  
+  .Container {
+    /* Estilos para o container */
+  }
+  
+  .Row {
+    /* Estilos para a row */
+  }
+  
+  .Col {
+    /* Estilos para as colunas */
+  }
+  
