@@ -1,6 +1,6 @@
 # AgusStore
 
-[Español](README.md) | 🇺🇸 [English](README.en.md)
+[Español](README.md) |
 
 > Plataforma e-commerce full-stack desarrollada con Next.js, Prisma y PostgreSQL.
 
